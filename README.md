@@ -39,6 +39,7 @@ bash scripts/test/cub_5w5s.sh
 python test.py -dataset cub -datadir /home/data/cub -gpu 0 -extra_dir cub_5w5s -temperature_attn 5.0 
 ```
 
+## We will update the full code once the paper is accepted.
 
 ## :fire: Training scripts
 To train in the 5-way K-shot setting:
