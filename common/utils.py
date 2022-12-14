@@ -136,7 +136,7 @@ def by(s):
 
 
 def parse_args(arg_mode):
-    parser = argparse.ArgumentParser(description='mfsc')
+    parser = argparse.ArgumentParser(description='magf')
 
     ''' about dataset '''
     parser.add_argument('-dataset', type=str, default='miniimagenet',
