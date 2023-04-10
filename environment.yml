@@ -1,4 +1,4 @@
-name: MAGF
+name: MACF
 channels:
   - pytorch
   - nvidia
