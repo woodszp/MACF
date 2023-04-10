@@ -19,7 +19,7 @@ def setup_run(arg_mode='train'):
     ensure_path(args.save_path)
 
     if not args.no_wandb:
-        wandb.init(project=f'magf-{args.dataset}-{args.way}w{args.shot}s',
+        wandb.init(project=f'macf-{args.dataset}-{args.way}w{args.shot}s',
                    config=args,
                    save_code=True,
                    name=args.extra_dir)
