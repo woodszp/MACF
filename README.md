@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>Multi-granularity Awareness via Gaussian Fusion for Few-Shot Learning</h1>
+  <h1>Multi-granularity Awareness via Cross Fusion for Few-Shot Learning</h1>
 </div>
 
 
@@ -13,8 +13,8 @@
 
 ## :gear: Conda environmnet installation
 ```bash
-conda env create --name MAGF --file environment.yml
-conda activate MAGF
+conda env create --name MACF --file environment.yml
+conda activate MACF
 ```
 
 ## :books: Datasets
@@ -31,7 +31,7 @@ To test in the 5-way K-shot setting:
 ```bash
 bash scripts/test/{dataset_name}_5wKs.sh
 ```
-For example, to test MAGF on the cub dataset in the 5-way 5-shot setting:
+For example, to test MACF on the cub dataset in the 5-way 5-shot setting:
 ```bash
 bash scripts/test/cub_5w5s.sh
 ```
@@ -46,7 +46,7 @@ To train in the 5-way K-shot setting:
 ```bash
 bash scripts/train/{dataset_name}_5wKs.sh
 ```
-For example, to train MAGF on the CIFAR-FS dataset in the 5-way 1-shot setting:
+For example, to train MACF on the CIFAR-FS dataset in the 5-way 1-shot setting:
 ```bash
 bash scripts/train/cifar_fs_5w1s.sh
 ```
